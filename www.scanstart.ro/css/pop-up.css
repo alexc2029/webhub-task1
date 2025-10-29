@@ -1,12 +1,12 @@
-.popUpParagraph{
-    font-size: 16px;
-    color: grey;
-    line-height: 28px;
-    text-transform: uppercase; 
-    text-decoration:underline;
-    text-align:center;
+.popUpParagraph {
+	font-size: 1.1em;
+	color: grey;
+	line-height: 28px;
+	text-align: center;
+	margin-top: 15px;
+	margin-bottom: 25px;
 }
 
-#spaced{
-    margin-bottom:5%;
+#spaced {
+	margin-bottom: 5%;
 }
