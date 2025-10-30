@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="format-detection" content="telephone=no" />
+		<link rel="icon" href="images/favicon.ico" type="image/x-icon" />
+		<title>CEI</title>
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.css" rel="stylesheet" />
+
+		<!-- Links -->
+		<link rel="stylesheet" href="css/camera.css" />
+		<link rel="stylesheet" href="css/owl-carousel.css" />
+		<link rel="stylesheet" href="css/jquery.fancybox.css" />
+		<link rel="stylesheet" href="css/search.css" />
+		<link rel="stylesheet" href="css/pop-up.css" />
+		<link rel="stylesheet" href="css/style.css" />
+
+		<!--JS-->
+		<script src="js/jquery.js"></script>
+		<script src="js/jquery-migrate-1.2.1.min.js"></script>
+
+		<!--[if lt IE 9]>
+			<div style="clear: both; text-align: center; position: relative">
+				<a
+					href="http://windows.microsoft.com/en-US/internet-explorer/.."
+				>
+					<img
+						src="images/ie8-panel/warning_bar_0000_us.jpg"
+						border="0"
+						height="42"
+						width="820"
+						alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."
+					/>
+				</a>
+			</div>
+			<script src="js/html5shiv.js"></script>
+		<![endif]-->
+		<script src="js/device.min.js"></script>
+
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function () {
+				if (
+					sessionStorage.getItem("AlreadyVisited") == null ||
+					sessionStorage.getItem("AlreadyVisited") == undefined
+				) {
+					$("#myModal").modal("show");
+					sessionStorage.setItem("AlreadyVisited", true);
+				}
+			});
+		</script>
+	</head>
+	<body>
+		<!--========================================================
+                            HEADER
+  =========================================================-->
+		<header>
+			<div id="stuck_container" class="stuck_container">
+				<div class="container">
+					<nav class="navbar navbar-default navbar-static-top">
+						<div class="navbar-left">
+							<ul
+								class="nav navbar-nav sf-menu index-menu"
+								data-type="navbar"
+							>
+								<li>
+									<img src="images/logo.png" />
+								</li>
+								<li>
+									<a href="#">acasa</a>
+								</li>
+
+								<li class="dropdown">
+									<a href="#">ScanStart</a>
+									<ul class="dropdown-menu">
+										<li>
+											<a href="#">Cum functionează?</a>
+										</li>
+										<li>
+											<a href="#">Funcționalități</a>
+										</li>
+										<li>
+											<a href="#">Avantaje</a>
+										</li>
+										<li>
+											<a href="#">Versiuni</a>
+										</li>
+										<li>
+											<a href="#">întrebări frecvente</a>
+										</li>
+									</ul>
+								</li>
+								<li class="dropdown">
+									<a href="#">Servicii</a>
+									<ul class="dropdown-menu-servicii">
+										<li>
+											<a href="#">Servicii</a>
+										</li>
+										<li>
+											<a href="#">
+												ScanStart for Hotels
+											</a>
+										</li>
+										<li>
+											<a href="#">ScanStart AdBlocker</a>
+										</li>
+										<li>
+											<a href="#">Suport tehnic</a>
+										</li>
+										<li>
+											<a href="#">App Management</a>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">Tarife</a>
+								</li>
+
+								<li>
+									<a href="#">Contact</a>
+								</li>
+							</ul>
+						</div>
+					</nav>
+				</div>
+			</div>
+		</header>
+		<!--========================================================
+                            CONTENT
+  =========================================================-->
+
+		<main>
+			<section class="well well2">
+				<div class="row">
+					<div class="container">
+						<div class="col-md-12 col-sm-12">
+							<h4 class="text-center">
+								Soluții Complete pentru Cartea de Identitate
+								Electronică (CEI)
+							</h4>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="container">
+						<div class="col-md-6 col-sm-12">
+							<p class="lead1">
+								1. Cititor Axagon + ID Plug Manager
+							</p>
+							<p class="product-price">50 Euro</p>
+							<p>
+								Se integrează cu Aplicația guvernamentală ID
+								Plug Manager.
+							</p>
+							<br />
+							<p>*Opțional. Tastatură numerică (+20 Euro)</p>
+							<img src="images/cei/tastatura-optional.jpg" />
+						</div>
+						<div
+							class="col-md-6 col-sm-12 wow fadeInRight text-center"
+							data-wow-duration="2s"
+						>
+							<img
+								src="images/cei/axagon.jpg"
+								alt=""
+								class="product-image"
+							/>
+						</div>
+					</div>
+				</div>
+				<hr style="width: 75%" />
+				<div class="row">
+					<div class="container">
+						<div class="col-md-6 col-sm-12">
+							<p class="lead1">
+								2. Cititor Thales Gemalto CT700 + ID Plug
+								Manager
+							</p>
+							<p class="product-price">180 Euro</p>
+							<p>
+								Se integrează cu Aplicația guvernamentală ID
+								Plug Manager.
+							</p>
+						</div>
+						<div
+							class="col-md-6 col-sm-12 wow fadeInRight text-center"
+							data-wow-duration="2s"
+						>
+							<img
+								src="images/cei/thales.jpg"
+								alt=""
+								class="product-image"
+							/>
+						</div>
+					</div>
+				</div>
+
+				<hr style="width: 75%" />
+				<div class="row">
+					<div class="container">
+						<div class="col-md-6 col-sm-12">
+							<p class="lead1">
+								3. Cititor Axagon + ScanStart Client for
+								Notariat
+							</p>
+							<p class="product-price">200 Euro</p>
+							<p>
+								Include integrare cu Aplicația ScanStart Client
+								for Notariat.
+							</p>
+							<br />
+							<p>*Opțional. Tastatură numerică (+20 Euro)</p>
+							<img src="images/cei/tastatura-optional.jpg" />
+						</div>
+						<div
+							class="col-md-3 col-sm-12 wow fadeInRight text-center"
+							data-wow-duration="2s"
+						>
+							<div class="wrapper-combo-images">
+								<img
+									src="images/cei/axagon.jpg"
+									alt=""
+									class="product-image"
+								/>
+								<span class="separator-plus">+</span>
+								<img
+									src="images/cei/notariat.jpg"
+									alt=""
+									class="product-image"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<hr style="width: 75%" />
+				<div class="row">
+					<div class="container">
+						<div class="col-md-6 col-sm-12">
+							<p class="lead1">
+								4. Cititor Thales + ScanStart for Notariat
+							</p>
+							<p class="product-price">350 Euro</p>
+							<p>
+								Include integrare cu Aplicația ScanStart Client
+								for Notariat.
+							</p>
+						</div>
+						<div
+							class="col-md-6 col-sm-12 wow fadeInRight text-center"
+							data-wow-duration="2s"
+						>
+							<div class="wrapper-combo-images">
+								<img
+									src="images/cei/thales.jpg"
+									alt=""
+									class="product-image"
+								/>
+								<span class="separator-plus">+</span>
+								<img
+									src="images/cei/notariat.jpg"
+									alt=""
+									class="product-image"
+								/>
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<hr style="width: 75%" />
+				<div class="row">
+					<div class="container">
+						<div class="col-md-6 col-sm-12">
+							<p class="lead1">
+								5. Cititor ARH + ScanStart for Notariat
+							</p>
+							<p class="product-price">2050 Euro</p>
+							<p>
+								Cititorul preia datele atât de pe buletinele noi
+								cât și de pe cele vechi. Include integrare cu
+								Aplicația ScanStart Client for Notariat.
+							</p>
+						</div>
+						<div
+							class="col-md-6 col-sm-12 wow fadeInRight text-center"
+							data-wow-duration="2s"
+						>
+							<img
+								src="images/cei/arh.jpg"
+								alt=""
+								class="product-image"
+							/>
+						</div>
+					</div>
+					<hr style="width: 75%" />
+					<div class="row">
+						<div class="container">
+							<div class="col-md-6 col-sm-12">
+								<p class="lead1">Coming soon:</p>
+								<p>
+									Integrare cu Aplicația ScanStart for Hotels
+									(cu toate cele 3 modele de scanner).
+								</p>
+								<p>
+									La cerere, putem efectua integrări si cu
+									alte aplicatii.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		﻿
+		<!--========================================================
+                            FOOTER
+  =========================================================-->
+		<footer>
+			<section>
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-1 col-xs-12 center767">
+							<img
+								class="footer_logo"
+								src="images/onlylogo.png"
+								alt=""
+							/>
+						</div>
+						<div class="col-sm-11 col-xs-12 center767">
+							<p>
+								&#169; <span id="copyright-year"></span>
+								SC ScanStart Hardware & Software SRL
+								<!-- <a href="index-5.html"> <span class="rights">Privacy Policy</span></a> -->
+								<!-- {%FOOTER_LINK} -->
+							</p>
+						</div>
+						<!--<div class="col-sm-4 col-xs-12 center767">
+            <address>
+              <p>
+                SC ScanStart Hardware & Software SRL
+              </p>
+            </address>
+          </div>
+		  
+          <div class="col-sm-4 col-xs-12">
+             <ul class="inline-list text-right center767">      
+              <li><a href="index.html#" class="fa fa-twitter">twitter</a></li>
+              <li><a href="index.html#" class="fa fa-facebook">facebook</a></li>
+              <li><a href="index.html#" class="fa  fa-google-plus">google-plus</a></li>
+              <li><a href="index.html#" class="fa  fa-rss">rss</a></li>
+              <li><a href="index.html#" class="fa fa-pinterest">pinterest</a></li>
+            </ul> 
+          </div>-->
+					</div>
+				</div>
+			</section>
+		</footer>
+		<script src="js/bootstrap.min.js"></script>
+		<script src="js/tm-scripts.js"></script>
+	</body>
+</html>
