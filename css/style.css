@@ -31,12 +31,6 @@
 	width: 100%;
 }
 
-.index-menu {
-	display: flex;
-	flex-wrap: nowrap;
-	align-items: center;
-}
-
 .navbar-default .navbar-nav > li:nth-child(1) {
 	width: 20%;
 }
