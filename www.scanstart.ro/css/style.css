@@ -63,6 +63,6 @@
 	background: #d0009e;
 }
 
-.stuck_container {
-	margin-top: 0;
+.cei-page #stuck_container {
+	margin-top: 8px; /* brute force fix for difference in header position */
 }
